@@ -11,12 +11,12 @@ class Grains
     # @grains_array.inject(&:+)
     # end
     def self.square(num)
-        @test = Grain_array.grain_test
+        @test = Grain_array.grain_test  #see file grainarr.rb for this
         @test[num - 1]
     end
 
     def self.total
-        @total = Grain_array.grain_total
+        @total = Grain_array.grain_total    #see file grainarr.rb for this
         @total
     end
 
